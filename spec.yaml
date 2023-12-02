@@ -1,0 +1,28 @@
+openapi: '3.0.0'
+info:
+  title: Simple API overview
+  version: 1.0.0
+paths:
+  /api/sample.json:
+    get:
+      operationId: getSample
+      responses:
+        '200':
+          description: |-
+            200 response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sample'
+components:
+  schemas:
+    Sample:
+      type: object
+      required:
+        - key1
+        - key2
+      properties:
+        key1:
+          type: string
+        key2:
+          type: string
