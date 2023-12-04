@@ -40,3 +40,6 @@ rules:
 settings:
   react:
     version: 'detect'
+ignorePatterns:
+  - /src/api/apiClient.ts
+  - /src/api/types.ts

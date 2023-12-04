@@ -26,3 +26,5 @@ components:
           type: string
         key2:
           type: string
+  requestBodies: {}
+  responses: {}

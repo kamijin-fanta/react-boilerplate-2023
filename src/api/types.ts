@@ -11,3 +11,5 @@ export namespace Schemas {
     key2: string;
   }
 }
+export namespace Responses {}
+export namespace RequestBodies {}
